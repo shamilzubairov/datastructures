@@ -52,6 +52,7 @@ class Node {
               return;
             }
           } else if(id == current.iData) {
+            newNode = null;
             current.iData = id;
             current.dData = dd;
             return;
